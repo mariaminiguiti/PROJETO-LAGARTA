@@ -40,6 +40,9 @@ Arthur Gabriel Garcia	10735807
 <img width="709" height="399" alt="TELA_COMENTARIOS" src="https://github.com/user-attachments/assets/a5911b18-3526-4f41-826b-bc1a9256637b" />
 
 
+EXPLICAÇÃO REFERENTE AO CÓDIGO: 
+
+
 HTML
 1. Página principal (index.html)
 Essa página exibe os eventos culturais disponíveis em São Paulo. Possui:
