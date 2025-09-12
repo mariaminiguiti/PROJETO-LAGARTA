@@ -38,3 +38,63 @@ Arthur Gabriel Garcia	10735807
 
 5.	TELA DE ACESSO: Garantindo uma experiência melhor, cada evento terá feedbacks realizados por outros usuários. Além de opções como busca e pesquisa, notícias relacionadas aos eventos, eventos favoritos e acesso direto aos ingressos disponíveis.
 <img width="709" height="399" alt="TELA_COMENTARIOS" src="https://github.com/user-attachments/assets/a5911b18-3526-4f41-826b-bc1a9256637b" />
+
+
+HTML
+1. Página principal (index.html)
+Essa página exibe os eventos culturais disponíveis em São Paulo. Possui:
+•	Cabeçalho (<header>):
+o	Logo do site.
+o	Ícone de localização com o nome da cidade ("São Paulo").
+o	Links para cadastro, login e perfil.
+•	Título principal:
+o	“CONFIRA OS PRÓXIMOS EVENTOS”.
+•	Corpo principal (<main>):
+o	Vários cards de eventos com:
+	Nome, descrição, imagem, local e data.
+•	Rodapé (<footer>):
+o	Links úteis (SESC, Casa das Rosas, Teatro Municipal).
+o	Redes sociais com ícones.
+o	Informações de contato (telefone, celular).
+2. Página de Cadastro (cadastro.html)
+Página onde o usuário pode criar uma conta:
+•	Dividida em duas seções:
+o	Esquerda: imagem/logo.
+o	Direita: formulário com:
+	Nome completo
+	E-mail
+	Senha + confirmação
+	Data de nascimento
+	Botão de envio (seta “→”)
+3. Página de Login (login.html)
+Página para o usuário acessar sua conta:
+•	Também dividida em duas:
+o	Esquerda: imagem/logo.
+o	Direita:
+	Campos de e-mail e senha.
+	Link "Esqueceu a senha?"
+	Link para ir ao cadastro se ainda não tiver conta.
+
+CSS
+1. Style.css (Página principal - Eventos)
+Este CSS é responsável por estilizar a página de eventos (index.html).
+Principais estilos:
+•	Body: Fundo claro, fonte Arial.
+•	Header: Barra no topo roxa escura (#110031), com logo e links distribuídos horizontalmente.
+•	Main: Layout em grade (2 colunas) para exibir os cards dos eventos.
+•	Cards: Fundo branco, com sombra e bordas arredondadas. Cada card tem imagem, título e texto.
+•	Footer: Rodapé roxo com seções (lugares, redes sociais e contato).
+2. Cadastro.css (Página de Cadastro)
+Define o layout da página de cadastro de usuários.
+Estrutura visual:
+•	Container: Caixa dividida em 2 lados (imagem à esquerda, formulário à direita).
+•	Input-group: Campos com ícones e estilo arredondado.
+•	Botão: Apenas um botão em forma de seta “→” para enviar o formulário.
+•	Responsivo: Adapta o layout para celulares e tablets.
+3. Login.css (Página de Login)
+Responsável por estilizar a página de login do usuário.
+Destaques:
+•	Layout parecido com o do cadastro (dividido em dois).
+•	Inputs com borda roxa e texto branco.
+•	Links para “Esqueceu a senha?” e “Cadastre-se”.
+•	Adaptação responsiva para telas menores.			
