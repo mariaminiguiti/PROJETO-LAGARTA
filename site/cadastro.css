@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #110031;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 750px;
+    height: auto;
+    display: flex;
+    background-color: #110031;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  .left-box {
+    flex: 1;
+    background-color: #110031;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+
+  .left-box img {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .left-box .logo {
+    font-family: 'Zen Dots', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  
+  .right-box {
+    flex: 1;
+    background-color: white;
+    padding: 40px 30px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .right-box h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    background-color: #F1F2E8;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .input-group i {
+    color: #6c6c6c;
+    margin-right: 10px;
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  .birth-label {
+    align-self: flex-start;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .birth-select {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .birth-select select {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .submit-arrow {
+    align-self: flex-end;
+  }
+  
+  .submit-arrow button {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      width: 90%;
+      margin: 20px auto;
+      border-radius: 20px;
+    }
+  
+    .left-box {
+      width: 100%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 0;
+      padding: 30px 20px;
+    }
+  
+    .left-box .logo {
+      font-size: 32px;
+    }
+  
+    .right-box {
+      width: 100%;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding: 30px 20px;
+    }
+  
+    .input-group {
+      max-width: 100%;
+    }
+  
+    .birth-select {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .birth-select select {
+      width: 100%;
+    }
+  
+    .submit-arrow {
+      align-self: flex-end;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .left-box .logo {
+      font-size: 26px;
+      text-align: center;
+    }
+  
+    .right-box h2 {
+      font-size: 18px;
+    }
+  
+    .birth-label {
+      font-size: 13px;
+    }
+  
+    .birth-select select {
+      font-size: 13px;
+      padding: 6px;
+    }
+  
+    .input-group input {
+      font-size: 13px;
+    }
+  
+    .submit-arrow button {
+      font-size: 20px;
+    }
+  }

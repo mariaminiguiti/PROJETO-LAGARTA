@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastro - Eventus</title>
+  <link rel="stylesheet" href="cadastro.css" />
+</head>
+<body>
+  <section class="container">
+    <section class="left-box">
+      <img src="imgs/eventuslogobg.png" alt="" />
+    </section>
+
+    <section class="right-box">
+      <h2>CADASTRE-SE</h2>
+
+      <form id="cadastroForm">
+        <section class="input-group">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Nome completo" required />
+        </section>
+
+        <section class="input-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" id="email" placeholder="E-mail" required />
+        </section>
+
+        <section class="input-group">
+          <i class="fas fa-lock"></i>
+          <input type="password" id="senha" placeholder="Senha" required />
+        </section>
+
+        <section class="input-group">
+          <i class="fas fa-lock"></i>
+          <input type="password" id="confirmarSenha" placeholder="Confirmar senha" required />
+        </section>
+
+        <label class="birth-label">Data de nascimento:</label>
+        <section class="birth-select">
+          <input type="date" id="dataNascimento" style="width: 300px; height: 30px;" required />
+        </section>
+
+        <section class="submit-arrow">
+          <button type="submit">
+            <span>→</span>
+          </button>
+        </section>
+      </form>
+    </section>
+  </section>
+
+  <script src="validacao.js"></script>
+</body>
+</html>
