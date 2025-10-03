@@ -100,4 +100,12 @@ Destaques:
 •	Layout parecido com o do cadastro (dividido em dois).
 •	Inputs com borda roxa e texto branco.
 •	Links para “Esqueceu a senha?” e “Cadastre-se”.
-•	Adaptação responsiva para telas menores.			
+•	Adaptação responsiva para telas menores.
+
+SCRIPT 
+1. Validações para email, sugestão de senha forte e nascimento implementadas.
+• Valida o email, certificando-se que ele contenha o caractere "@" e um ponto (".") depois do "@".
+• Verifica se a senha é forte, ou seja, possui no mínimo 8 caracteres, com letras maiúsculas, minúsculas, números e caracteres especiais.
+• Confirma que a senha e a confirmação de senha sejam iguais.
+• Valida a data de nascimento, garantindo que ela não esteja vazia, não seja uma data futura e que o usuário tenha pelo menos 18 anos.
+Caso alguma validação falhe, impeça o envio do formulário e exiba uma mensagem de alerta ao usuário.
